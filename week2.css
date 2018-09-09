@@ -62,10 +62,10 @@
   }
   
   @media screen and (max-width: 768px){
-    ul li:nth-child(2){
-      width: 40%;
-    }
-    ul li:nth-child(3){
-      width: 30%;
-    }
+  .grid-item:nth-child(2){
+    width: 40%;
   }
+  .grid-item:{
+    width: 30%;
+  }
+}
